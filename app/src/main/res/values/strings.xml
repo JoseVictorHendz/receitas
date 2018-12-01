@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Receitas</string>
+
+    <string-array name="categorias_array">
+        <item>Instantaneas</item>
+        <item>Bolos</item>
+        <item>Pizza</item>
+    </string-array>
+
+</resources>
