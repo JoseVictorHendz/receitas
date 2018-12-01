@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".InstantaneoActivity" />
         <activity android:name=".BoloActivity" />
-        <activity android:name=".PizzaActivity"></activity>
+        <activity android:name=".PizzaActivity" />
+        <activity android:name=".ReceitasActivity"></activity>
     </application>
 
 </manifest>
