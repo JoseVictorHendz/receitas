@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".InstantaneoActivity" />
+        <activity android:name=".BoloActivity" />
+        <activity android:name=".PizzaActivity"></activity>
     </application>
 
 </manifest>

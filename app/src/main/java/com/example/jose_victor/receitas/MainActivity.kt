@@ -1,6 +1,7 @@
 package com.example.jose_victor.receitas
 
 import android.content.Context
+import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -31,10 +32,28 @@ class MainActivity : AppCompatActivity(), AdapterView.OnItemSelectedListener {
 
     }
 
+    fun alternActivity(intent: Intent) {
+        startActivity(intent)
+    }
+
 
     override fun onItemSelected(parent: AdapterView<*>, view: View,
                                 pos: Int, id: Long) {
+        val intent: Intent
+        if(id.toInt() == 1) {
+            intent = Intent(this, InstantaneoActivity::class.java)
+            alternActivity(intent)
 
+        } else if(id.toInt() == 2) {
+            intent = Intent(this, BoloActivity::class.java)
+            alternActivity(intent)
+
+
+        } else if(id.toInt() != 0){
+            intent = Intent(this, PizzaActivity::class.java)
+            alternActivity(intent)
+
+        }
     }
 
     override fun onNothingSelected(parent: AdapterView<*>) {

@@ -1,10 +1,11 @@
 <resources>
     <string name="app_name">Receitas</string>
+    <string name="instantaneas">Instantaneas</string>
 
     <string-array name="categorias_array">
+        <item>Escolha uma receita</item>
         <item>Instantaneas</item>
         <item>Bolos</item>
         <item>Pizza</item>
     </string-array>
-
 </resources>
